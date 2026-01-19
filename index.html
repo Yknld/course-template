@@ -1239,26 +1239,6 @@
                     "Key point two",
                     "Key point three"
                 ],
-                timeline: [
-                    {
-                        date: "1800",
-                        title: "Important Event",
-                        description: "Description of what happened during this time period.",
-                        person: "Key Person Name"
-                    },
-                    {
-                        date: "1850",
-                        title: "Major Development",
-                        description: "Description of the development and its significance.",
-                        person: "Another Key Person"
-                    },
-                    {
-                        date: "1900",
-                        title: "Revolutionary Idea",
-                        description: "Explanation of the idea and its impact.",
-                        person: "Influential Thinker"
-                    }
-                ],
                 funFact: "This is where an interesting fun fact related to the lesson will appear.",
                 audioSources: {}
             }
@@ -1452,7 +1432,7 @@
                 if (data.funFact) module.funFact = data.funFact;
                 if (data.videoId) module.videoId = data.videoId;
                 if (data.keyPoints) module.keyPoints = data.keyPoints;
-                if (data.timeline) module.timeline = data.timeline;
+                // Timeline removed
                 if (data.audioSources) module.audioSources = data.audioSources;
 
                 // Reload current module to reflect changes
